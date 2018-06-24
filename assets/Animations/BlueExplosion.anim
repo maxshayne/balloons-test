@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "BlueExplosion",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "5908836f-5f81-45b8-83f2-8ca7239caacc"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "38c96929-a5f9-4bbd-83d8-a9091a4a632f"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "f9606081-824e-4545-b64e-83c96cd42d58"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "3c5a5d4c-9221-4108-9145-4ed2dde30c4a"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "2da9ef50-5f0c-42b8-bb0b-70f3b221f9ee"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "c7e17275-7ff5-4236-9a85-597164f123b5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "onAnimCompleted",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "OrangeExplosion",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "1a670db4-47a6-4eb5-9455-580efedc798c"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "00f012d5-4e31-4550-b682-b7984bc54690"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "384375d6-979f-421f-a12c-2dd47975e262"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "1c2bbd07-4c09-4db8-9859-00d20fa41b77"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "6cec1cad-2380-4112-a87b-6e87c4b3f75d"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "38a1f7fb-5849-4a12-b152-956fb02a50f2"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "onAnimCompleted",
+      "params": []
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "PinkExplosion",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "c4b8cb83-84ea-4f6f-b741-95f04e06c1d0"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "512ccf82-75b0-47d2-9c56-cc0936622373"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "e3eac8c2-3742-40dc-a720-eff925421174"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "e1f02efd-bcea-43f4-a883-991be9b8a6e5"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "838c6b5c-6fcc-440d-b727-03f9daa41bd1"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "297a0c11-adaf-45e8-a8ca-c08ecbcb0ce8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "onAnimCompleted",
+      "params": []
+    }
+  ]
+}

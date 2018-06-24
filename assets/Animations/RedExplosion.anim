@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "RedExplosion",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "22c8b4fc-f72c-42a7-9768-edfa6c4e46e8"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "1e05348d-3c22-43f4-9ff2-b29b7d50d4af"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "3b67b348-2669-4720-acc8-89a5ceccd0d2"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "a44b130b-ab95-4215-8445-8b18511d1039"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "9713166f-e95d-403a-9ad6-0c0e6539f9e6"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "8ad32ca8-24db-48f5-a82e-5ad3127d7460"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "onAnimCompleted",
+      "params": []
+    }
+  ]
+}

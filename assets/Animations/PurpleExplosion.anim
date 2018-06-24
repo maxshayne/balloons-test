@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "PurpleExplosion",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "cde7b1c0-304c-4ed0-83ed-3663f5d6e29d"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "68cdd9a9-d057-48c1-8de4-243962f97b0a"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "0e8f3598-3bc3-4bf5-afa7-ccbf1dc2ed8c"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "1e7a922d-9d90-4309-ab33-8c5da12a97f1"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "7efb5cf1-b0a8-4c17-ba78-5998946b1a87"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "b9ac851d-eab8-4293-8b5c-7237b570a11e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "onAnimCompleted",
+      "params": []
+    }
+  ]
+}

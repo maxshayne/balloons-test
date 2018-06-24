@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "YellowExplosion",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.26666666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "63361341-6741-4130-8daf-b8d98ac5cc10"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "5c19dbfd-1ca2-4529-a2b4-f664ca00c90e"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "a15b509d-81d7-4423-a4a5-3ad0dca5d8be"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "d7cb5fe7-b092-4291-af94-7237b292ba64"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "588ee0c4-dad4-45a3-82b6-b76f6a2e7884"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "5d5b0a1c-362a-4ab7-9510-9bf6a9fac20f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.25,
+      "func": "onAnimCompleted",
+      "params": []
+    }
+  ]
+}
