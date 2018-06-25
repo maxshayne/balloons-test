@@ -38,8 +38,8 @@ export default class MenuManager extends cc.Component {
             node.width = this.list.width;
             var layout = node.addComponent(cc.Layout);                      
             layout.type = cc.Layout.Type.HORIZONTAL;
-            layout.resizeMode = cc.Layout.ResizeMode.CHILDREN;
-            layout.spacingX = 150;                        
+            layout.resizeMode = cc.Layout.ResizeMode.CONTAINER;
+            layout.spacingX = 100;                        
             var name = new cc.Node();
             var label = name.addComponent(cc.Label);                      
             label.string = element.name;

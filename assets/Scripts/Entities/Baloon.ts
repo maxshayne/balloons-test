@@ -84,6 +84,7 @@ export default class Baloon extends cc.Component {
         anim.on('finished', this.onAnimCompleted, this);
         this.node.getChildByName("BalloonString").destroy();
         GameManager.Instance.BalloonsPopped++;
+        GameManager.Instance.popAudio.play();
         anim.play(anim.getClips()[this.colorNum].name);
     }
 

@@ -16,6 +16,9 @@ export default class UIManager extends cc.Component {
     public GameOverPanel: cc.Node = null;
 
     @property(cc.Node)
+    public TipPanel: cc.Node = null;
+
+    @property(cc.Node)
     public BackButton: cc.Node = null;
 
     @property(cc.EditBox)
@@ -36,6 +39,9 @@ export default class UIManager extends cc.Component {
         this.LifeLabel.string = this.gmInstance.LifeCount.toString();
         this.BalloonsPoppedLabel.string = this.gmInstance.BalloonsPopped.toString();
         this.ScoreLabel.string = this.gmInstance.BalloonsPopped.toString();
+        if (this.gmInstance.IsGameStart && this.TipPanel.active) {
+            this.TipPanel.active = false;
+        }
         if (this.gmInstance.IsGameOver) {
             this.GameOverPanel.active = true;
             this.BackButton.active = false;
@@ -46,18 +52,16 @@ export default class UIManager extends cc.Component {
         cc.director.loadScene("Menu");
     }
 
-    onSaveButton(){
+    onSaveButton() {
         if (this.saveButtonClicked) return;
         this.saveButtonClicked = true;
         var localUsers = JSON.parse(cc.sys.localStorage.getItem('users'));
         var playerName = this.NameEditBox.string;
         let item = localUsers.find(i => i.name === playerName);
-        if (item != null)
-        {
+        if (item != null) {
             item.score = this.gmInstance.BalloonsPopped;
         }
-        else
-        {
+        else {
             console.log(playerName);
             console.log(this.gmInstance.BalloonsPopped);
             var user = new User(playerName, this.gmInstance.BalloonsPopped);
@@ -65,5 +69,5 @@ export default class UIManager extends cc.Component {
         }
         cc.sys.localStorage.setItem('users', JSON.stringify(localUsers));
         cc.director.loadScene("Menu");
-    }    
+    }
 }
